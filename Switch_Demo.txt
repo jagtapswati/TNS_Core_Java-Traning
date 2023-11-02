@@ -1,0 +1,22 @@
+Switch
+
+according to choice
+ex. Customer Care
+
+switch(choice or expression)
+{
+	case label1:--------------
+		--------------
+		break;
+	case label2:-----------------
+		-----------------
+		break;
+	:
+	:
+	default :------------------
+		----------------
+}
+
+choice or expression = integer, character , String
+fall through mechanism = initially matching case get executed & remaining cases after that matching case
+		are also get executed.

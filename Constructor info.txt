@@ -1,0 +1,26 @@
+Constructor
+
+A. Need Of Constructor
+	variables in the class are called as Data Members
+	initially we have to assign values to DM & then we can use it.
+	If we do not assign values to Data Members, it will display their default Value.
+	int = 0
+	float =0. 0
+	String = null
+	
+	to overcome these default values, concept of constructor is used.
+	
+B. Meaning of Constructor
+	class = VAriable(DM) & methods(MF)
+	Constructor is one of the special member function in the class
+	Constructors are used to assign values to DAta Members
+
+	Constructor are called as special , because
+	reason1 : have same name as that of class name
+	reason2 : Constructors do not have any return type, even void also
+	reason3 : NO need to call constructor manuualy, it get called automatically when we create object of the class. 
+C. Two types Of Constructor
+	1) Default Constructor - No argument Constructor - no parameters
+		drawback - every object get initilized with same value , 
+	2) Parametrized Constructor - pass parametrs to constructor
+	

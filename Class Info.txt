@@ -1,0 +1,61 @@
+Java Bean = Java CLass
+
+C Proframming - Structure
+	          - collection of elements of diff. data type
+	           - variable of diff. data type
+	         - entity ex, student,book,mobile
+		struct Student
+		{
+			int roll;
+			char name[30];
+		};
+________________________________________________________________
+C++ = Structure (data + Function) = Class
+	class Class_Name
+	{	
+		variables;
+		Functions;
+	}
+______________________________________________________________________
+CLasses
+
+- collection of variables & methods
+- variables - Data Members
+  methods - Member Functions
+- DM + MF = Members of class
+- Entity, object 
+   when we have to show real world object into the pgm, at that time concept of CLass is used.
+- User defined data type
+- Class is extension to Structure in C Programming.
+- Syntax
+	
+	class Class_Name
+	{
+		data_type var1;		//Data Members		//Members of class
+		data_type var2;
+		data_type var3;
+		data_type var4:
+		:
+		:
+		:
+		:
+		return_type method_name1(parameters)	//Member Function
+		{
+			--------------
+			---------------
+		}
+		return_type method_name2(parameters)
+		{
+			--------------
+			---------------
+		}
+		:
+		:
+		:
+
+	}
+	- for the class memory do not get allocated
+	- to access members of the class, we have to create variable of the class.
+	- variable of class is called as OBJECT
+	- Syntax
+	Class_Name    obj_name  = new Class_Name();
