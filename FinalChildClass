@@ -1,0 +1,19 @@
+package com.tnsif.finaldemo;
+
+public class FinalChildClass extends FinalMethod {
+
+
+
+
+    @override
+    public void disp()
+    {
+
+    }
+    public static void main(String[] args){
+
+        FinalMethod obj=new FinalMethod();
+                    obj.disp();
+                    
+    }
+}
